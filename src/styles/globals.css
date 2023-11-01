@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,4 +11,109 @@
 input[type='date']::-webkit-calendar-picker-indicator {
   cursor: pointer;
   filter: invert(0.8);
+}
+
+.ant-input {
+  background-color: #1f2639 !important;
+  color: white !important;
+  border-width: 0px !important;
+  height: 96px !important;
+  margin-bottom: 5px;
+  font-size: 35px;
+  border-radius: 12px !important;
+}
+
+.ant-input::placeholder {
+  color: #5f6783 !important;
+}
+
+.ant-popover-arrow {
+  visibility: hidden;
+}
+
+.ant-popover-title {
+  color: white !important;
+  font-size: 18px;
+  text-align: center;
+}
+
+.ant-popover-inner-content {
+  color: white !important;
+}
+
+.ant-popover-inner {
+  min-width: 260px !important;
+  min-height: 140px !important;
+  border: 1px solid #1b1924;
+  background-color: #1b1924 !important;
+  padding: 20px !important;
+}
+
+.ant-radio-group {
+  margin-top: 10px;
+}
+
+.ant-radio-button-wrapper {
+  background-color: #1f2639 !important;
+  color: white !important;
+  font-weight: 500;
+  border-color: white !important;
+}
+
+.ant-radio-button-wrapper-checked {
+  border-color: white !important;
+  background-color: rgb(17, 164, 71) !important;
+}
+
+.ant-radio-button-wrapper-checked::before {
+  background-color: white !important;
+}
+
+.ant-modal-content {
+  background-color: #0e111b !important;
+  color: white !important;
+  padding: 0px !important;
+}
+
+.ant-modal {
+  border: 1px solid #363e54;
+  width: 400px !important;
+  border-radius: 10px;
+}
+
+.ant-modal-header {
+  background-color: #0e111b !important;
+}
+
+.ant-modal-title {
+  color: white !important;
+  padding-top: 17px !important;
+  margin-left: 20px !important;
+}
+
+.ant-modal-close-icon {
+  color: #363e54 !important;
+  transition: 0.3s;
+}
+
+.ant-modal-close-icon:hover {
+  color: white !important;
+}
+
+.ant-switch {
+  background: #2f2b3c !important;
+}
+
+.ant-switch.ant-switch-checked {
+  background: #13a347 !important;
+}
+
+.settings-input .ant-input-number {
+  background-color: #201c2a !important;
+  color: white !important;
+  border-width: 0px !important;
+}
+
+.settings-input .ant-input-number-input {
+  color: white !important;
 }
